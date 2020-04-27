@@ -21,5 +21,5 @@ range[Symbol.iterator] = function() {
 }
 
 for (let num of range) {
-    console.log(num);
+    console.log(num); // 1, 2, 3, 4, 5
 }
